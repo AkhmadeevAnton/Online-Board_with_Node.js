@@ -1,0 +1,135 @@
+<!-- Buy Ticket -->
+<div id="problem" class="classLTr">
+    <div id="buyTicket">
+      <button id="bBT" onclick="ggg()">купить билет</button>
+    
+    <div class="TabItemBT">
+    <form id="race-online" action="/" name="FormByTicket" method="post">
+    <div onclick="openListCity_2('none')" id="transparent_2"></div>
+    <input type="text" class="cityDeparture" placeholder="Город Вылета" value="Город Вылета" maxlength="25" name="choiceC"
+      onblur="if(this.value=='') this.value=this.title;" onfocus="if(this.value==this.title) this.value='';">
+    <div id="listCity_2" onclick="openListCity_2('block')">
+      <input class="ls-button" type="button" value=" ">
+      <input class="ls-first" type="text" placeholder="Откуда" maxlength="25" disabled="disabled">
+       <div class="popupList_2" id="SpopupList_2">
+        <input class="ls-first-2 add_ls-first-2" id="username" type="text" placeholder="Откуда" maxlength="25" disabled="disabled">
+          <ul class="ls-first-3 add_ls-first-3">
+            <li data-value="Abakan"><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Абакан</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Айхал</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Алдан</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Амдерма</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Анадырь Угольный</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Анапа Витязево</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Апатиты Хибины</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Архангельск Талаги</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Барнаул Барнаул</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Белорецк Белорецк</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Благовещенск Игнатьево</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Братск Братск</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Балаково Балаково</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Брянск Брянск</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Екатеринбург</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Москва Внуково</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Москва Шереметьево</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Москва Домодедово</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Москва Быково</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Санкт-Петербург (Пулково)</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Череповец Череповец</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Челябинск Челябинск</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel(this);return false">Чокурдах Чокурдах</a></span></li>
+         </ul>
+      </div>
+    </div>
+    
+    <div onclick="openListCity_3('none')" id="transparent_3"></div>
+    <input type="text" class="cityArrival" placeholder="Город Прилета" value="Город Прилета" maxlength="25" name="arrivalС"
+      onblur="if(this.value=='') this.value=this.title;" onfocus="if(this.value==this.title) this.value='';">
+    <div id="listCity_3" onclick="openListCity_3('block')">
+      <input class="ls-button" type="button" value=" ">
+      <input class="ls-first" type="text" placeholder="Куда" maxlength="200" disabled="disabled">
+       <div class="popupList_3" id="SpopupList_3">
+        <input class="ls-first-2 add_ls-first-2" type="text" placeholder="Куда" maxlength="200" disabled="disabled">
+          <ul class="ls-first-3 add_ls-first-3">
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Абакан</a></span></li>
+            <li data-value="Aikhal"><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Айхал</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Алдан</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Амдерма</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Анадырь Угольный</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Анапа Витязево</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Апатиты Хибины</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Архангельск Талаги</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Барнаул Барнаул</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Белорецк Белорецк</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Благовещенск Игнатьево</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Братск Братск</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Балаково Балаково</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Брянск Брянск</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Екатеринбург</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Москва Внуково</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Москва Шереметьево</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Москва Домодедово</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Москва Быково</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Санкт-Петербург (Пулково)</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Череповец Череповец</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Челябинск Челябинск</a></span></li>
+            <li><span class="add-ls-first-3"><a href="#" onclick="CitySel_2(this);return false">Чокурдах Чокурдах</a></span></li>
+         </ul>
+      </div>
+    </div>
+    
+      <div class="InputTypeRadio" id="InTyRa">
+      <div class="inOneDirection" id="inOneDir">
+        <label class="labelInputRadio">
+          <input type="radio" name="In_One_direction" value="Да" required>
+          <span>В одну сторону</span>
+        </label>
+      </div>
+    
+      <div class="inOneDirection inOneDirection_2" id="inOneDir">
+        <label class="labelInputRadio">
+          <input type="radio" name="Back_and_forth" value="Да">
+          <span>Туда и обратно</span>
+        </label>
+      </div>
+      </div>
+    
+      <input class="SendDate" type="date" name="bday" max="2020-01-01" required>
+    
+      <input class="SendDate" type="date" name="bday" min="2019-08-27">
+    
+      <input class="adultsFrom" id="inputValid" type="number" name="Adults" placeholder="Взрослые от 12 лет" value="adults" min="1" max="6" required>
+     
+      <input class="adultsFrom" type="number" name="children" placeholder="Дети 2-12 лет" value="kids" min="1" max="5">
+      
+      <input class="adultsFrom" type="number" name="babies" placeholder="Младенцы от 2 лет" value="baby" min="1" max="1">
+    
+      <input class="SearchTicket" type="submit" value="Найти авиабилеты">
+    
+    </form>
+    </div>
+    
+    </div>
+    </div>
+    <!-- Buy Ticket -->
+
+    <script type="text/javascript">
+      var First = true;
+      function CitySel(MenuTitl) {
+          var city = document.getElementsByName('choiceC')[0];
+          var dop=city.value+' ';
+           if(First) {First=false;dop="";}
+          city.value = dop + MenuTitl.innerHTML;         
+      }
+      
+      </script>
+
+<script type="text/javascript">
+  var Second = true;
+  function CitySel_2(MenuTitl) {
+      var city_2 = document.getElementsByName('arrivalС')[0];
+      var dop_2=city_2.value+' ';
+       if(Second) {Second=false;dop_2="";}
+      city_2.value = dop_2 + MenuTitl.innerHTML;         
+  }
+  
+  </script>

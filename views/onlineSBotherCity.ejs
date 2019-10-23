@@ -1,0 +1,569 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="/public/CSS/SecP_Des.css">
+  <link rel="stylesheet" href="/public/CSS/SecP_Des_adapt.css">
+  <script language="JavaScript" src="/public/JS/SecP_JS.js" type="text/javascript"></script>
+  <link rel="icon" href="" type="" /> 
+  <link rel="shortcut icon" href="" type="" />
+  
+  <meta name="keywords" content="Ключевые слова через запятую">
+
+  <meta name="description" content="Описание страницы до 200 символов">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="yandex-verification" content="fb1437322a8b633a" />
+
+  <title>Авиа Табло</title>
+ </head>
+
+ <body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(55354411, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/55354411" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<% include blocks/ByTicket.ejs %>
+
+<div id="window">
+
+<% include blocks/header.ejs %>
+
+<!-- Name Table -->
+<div id="Shell_name_table">
+<div class="name-table">  
+  <h1>Табло вылетов</h1>
+
+  <ul class="menu-table">
+    <li><a href="#">Главная</a></li>
+    <li><a href="#">Онлайн-Табло</a></li>
+    <li>Табло Вылетов</li>
+  </ul>
+</div>
+</div>
+<!-- Name Table -->
+
+<!-- button-info -->
+<div class="button-info">
+
+<div class="info-flight">
+  <span class="InFlText"><b>Учебный, ознакомительный проект.<br>
+  Не используется в коммерческих целях.</b></span>
+</div>
+
+<div class="takeoff-landing">
+  <label class="takeoff">
+    <span>Вылет</span>
+  </label>
+
+  <label class="landing" onclick="location.href = '#'">
+    <span>Посадка</span>
+  </label>
+</div>
+
+<div class="iN">
+  из:
+</div>
+
+<div onclick="openListCity('none')" id="transparent"></div>
+<div id="listCity" onclick="openListCity('block')">
+  <input class="ls-button" type="button" value=" ">
+  <input class="ls-first" type="text" placeholder="Другой Город - Аэропорт" value="Другой Город - Аэропорт" readonly>
+
+
+   <div class="popupList" id="SpopupList">
+    <input class="ls-first-2" type="text" placeholder="Другой Город - Аэропорт" value="Другой Город - Аэропорт" readonly>
+    <ul class="ls-first-3">
+      <li><a href="#">Абакан</a></li>
+      <li><a href="#">Айхал</a></li>
+      <li><a href="#">Алдан</a></li>
+      <li><a href="#">Амдерма</a></li>
+      <li><a href="#">Анадырь Угольный</a></li>
+      <li><a href="#">Анапа Витязево</a></li>
+      <li><a href="#">Апатиты Хибины</a></li>
+      <li><a href="#">Архангельск Талаги</a></li>
+      <li><a href="#">Барнаул Барнаул</a></li>
+      <li><a href="#">Белорецк Белорецк</a></li>
+      <li><a href="#">Екатеринбург</a></li>
+      <li><a href="#">Москва Внуково</a></li>
+      <li><a href="#">Москва Шереметьево</a></li>
+      <li><a href="#">Москва Домодедово</a></li>
+      <li><a href="#">Москва Быково</a></li>
+      <li><a href="#">Благовещенск Игнатьево</a></li>
+      <li><a href="#">Братск Братск</a></li>
+      <li><a href="#">Балаково Балаково</a></li>
+      <li><a href="#">Брянск Брянск</a></li>
+      <li><a href="#">Череповец Череповец</a></li>
+      <li><a href="#">Челябинск Челябинск</a></li>
+      <li><a href="#">Чокурдах Чокурдах</a></li>
+    </ul>
+  </div>
+</div>
+
+</div>
+<!-- button-info -->
+
+
+<!-- table flights -->
+<div id="H-Table">
+<div class="numbFligft">номер <br>рейса</div>
+<div class="AeroSend">аэропорт <br>отправления</div>
+<div class="TerSend">терминал <br>отправления</div>
+<div class="AeroArrival">аэропорт <br>прибытия</div>
+<div class="DaTiShedule">дата/время <br>по расписанию</div>
+<div class="Status">статус</div>
+</div>
+
+
+<div id="NameFlights" onclick="ListFlights()"> 
+  <div id="NumF-1"> 
+    <div class="numbF-1-1">Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5"><span class="colorIns">00.00.00</span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Такой такой-то</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div id="NameFlights_2" onclick="ListFlights_2()"> 
+  <div id="NumF-1"> 
+    <div class="numbF-1-1">Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5"><span class="colorIns">00.00.00 </span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то супер джет</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div id="NameFlights_3" onclick="ListFlights_3()"> 
+  <div id="NumF-1"> 
+    <div class="numbF-1-1">Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5"><span class="colorIns">00.00.00</span> &nbsp;00:00"</div>
+    <div class="numbF-1-6">прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Айробус</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div id="NameFlights_4" onclick="ListFlights_4()"> 
+  <div id="NumF-1"> 
+    <div class="numbF-1-1">Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5"><span class="colorIns">00.00.00</span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Сякой-то</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<!-- display none / display block only to 320px -->
+<div id="NameFlights_5" onclick="ListFlights_5()"> 
+  <div id="NumF-1">
+    <div class="numbF-1-1">Номер рейса: Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">Терминал: 0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5">Дата/время по расписанию:<br><span class="colorIns">00.00.00</span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">Статус: прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Сякой-то</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div id="NameFlights_6" onclick="ListFlights_6()"> 
+  <div id="NumF-1">
+    <div class="numbF-1-1">Номер рейса: Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">Терминал: 0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5">Дата/время по расписанию:<br><span class="colorIns">00.00.00</span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">Статус: прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Сякой-то</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div id="NameFlights_7" onclick="ListFlights_7()"> 
+  <div id="NumF-1">
+    <div class="numbF-1-1">Номер рейса: Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">Терминал: 0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5">Дата/время по расписанию:<br><span class="colorIns">00.00.00</span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">Статус: прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Сякой-то</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+
+
+<div id="NameFlights_8" onclick="ListFlights_8()"> 
+  <div id="NumF-1">
+    <div class="numbF-1-1">Номер рейса: Такой-то <span class="colorIns">Такой-то</span></div>
+    <div class="numbF-1-2">Другой Город - Аэропорт</div>
+    <div class="numbF-1-3">Терминал: 0</div>
+    <div class="numbF-1-4">Другой Город - Аэропорт</div>
+    <div class="numbF-1-5">Дата/время по расписанию:<br><span class="colorIns">00.00.00</span> &nbsp;"00:00"</div>
+    <div class="numbF-1-6">Статус: прибыл</div>
+  </div>
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1">Тип Самолета</span>
+        <span class="TPFsp2">Такой такой-то Сякой-то</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Бизнес класс</span>
+        <span class="TPFsp2">0</span>
+      </li>
+      <li>
+        <span class="TPFsp1">Эконом класс</span>
+        <span class="TPFsp2">00</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd">Отправление фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="TypeInfoFl">
+    <ul>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие по расписанию</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+      <li>
+        <span class="TPFsp1 TPFspanAdd_2">Прибытие фактическое</span>
+        <span class="TPFsp2">00.00.00 (00:00)</span>
+      </li>
+    </ul>
+  </div>
+</div>
+<!-- display none / display block only to 320px -->
+<!-- table flights -->
+
+<% include blocks/footer.ejs %>
+
+</div>
+
+
+ </body>
+</html>

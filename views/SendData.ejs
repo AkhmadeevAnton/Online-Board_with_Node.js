@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+ <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <link rel="stylesheet" href="/public/CSS/SecP_Des.css">
+  <link rel="stylesheet" href="/public/CSS/SecP_Des_adapt.css">
+  <script language="JavaScript" src="/public/JS/SecP_JS.js" type="text/javascript"></script>
+  <link rel="icon" href="" type="" /> 
+  <link rel="shortcut icon" href="" type="" />
+  
+  <meta name="keywords" content="Ключевые слова через запятую">
+
+  <meta name="description" content="Описание страницы до 200 символов">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <meta name="yandex-verification" content="fb1437322a8b633a" />
+
+  <title>Авиа Табло</title>
+ </head>
+
+ <body>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(55354411, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/55354411" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<div id="window">
+
+<% include blocks/header.ejs %>
+
+<h1 class="Header-Transition">Обработка данных</h1>
+
+<div id="SendDataText">
+   <p>
+      <b>Откуда:</b> <%= data.choiceC %><br>
+      <b>Куда:</b> <%= data.arrivalС %><br>
+      <b>В одну сторону:</b> <%= data.In_One_direction %><br>
+      <b>Туда и обратно:</b> <%= data.Back_and_forth %><br>
+      <b>Даты вылетов:</b> <%= data.bday %><br>
+      <b>Взрослые:</b> <%= data.Adults %><br>
+      <b>Дети:</b> <%= data.children %><br>
+      <b>Младенцы:</b> <%= data.babies %><br>
+   </p>
+</div>
+
+<div id="SendDataText">
+      <p>
+         <b>Номер рейса:</b> <%= data.RegOnInp %><br>
+      </p>
+</div>
+
+<% include blocks/footer.ejs %>
+
+</div>
+
+
+ </body>
+</html>

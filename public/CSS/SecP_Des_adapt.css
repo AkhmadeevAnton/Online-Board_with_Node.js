@@ -1,0 +1,1685 @@
+@media only screen and (min-width : 1600px) and (max-width : 1919px) {           /*--- 1536px ---*/
+
+	#window {
+	width: 1522px;
+	height: auto; 
+	margin: 0 auto;
+	max-height: auto;
+	min-height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+/* ------- BuyTicket -------- */
+#bBT {
+	margin-left: 344px;
+}
+/* ------- BuyTicket -------- */
+
+
+/* ------- social contacts  ---------- */
+#Header {
+	position: relative;
+	width: 1522px;
+	height: 79px;
+	border-bottom: solid 1px #808080;
+}
+
+#Telephon {
+	margin-left: 20px;
+}
+
+.butIn {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 55px;
+	margin-top: 45px;
+}
+
+#imgMag {
+	background: #eeeeee no-repeat 4px 3px url('../IMG/mag.png');
+}
+
+.ExitButIn {
+	float: left;
+	margin-left: -234px;
+	margin-top: 45px;
+}
+
+.ExitButIn input[type=text] {
+	height: 25px;
+}
+
+.qCancel {
+	width: 25px;
+	height: 25px;
+	margin-top: -28px;
+	margin-left: 187px;
+	outline: none;
+	box-shadow: none;
+}
+/* ------- social contacts  ---------- */
+
+
+/* ----------- menu-header ----------- */
+.Shell-MH {
+	width: 1522px;
+}
+
+.add_services {
+	display: none;
+}
+/* ----------- menu-header ----------- */
+
+
+/* ------- Name-Table -------- */
+.name-table {
+	width: 1522px;
+}
+/* ------- Name-Table -------- */
+
+
+/* ------- button-info ---------*/
+.takeoff span {
+	height: 35px;
+}
+
+.landing span {
+	height: 35px;
+}
+/* ------- button-info ---------*/
+
+
+/* ------- table flights ---------*/
+.numbFligft {
+	width: 230px;
+}
+
+.AeroSend {
+	width: 300px;
+}
+
+.TerSend {
+	width: 180px;
+}
+
+.AeroArrival {
+	width: 300px;
+}
+
+.DaTiShedule {
+	width: 205px;
+}
+
+.Status {
+	width: 190px;
+}
+
+#NameFlights {
+	width: 1430px;
+}
+
+#NameFlights_2 {
+	width: 1430px;
+}
+
+#NameFlights_3 {
+	width: 1430px;
+}
+
+#NameFlights_4 {
+	width: 1430px;
+}
+
+#NumF-1 {
+	width: 1410px;
+}
+
+.numbF-1-1 {
+	width: 230px;
+}
+
+.numbF-1-2 {
+	width: 300px;
+}
+
+.numbF-1-3 {
+	width: 180px;
+}
+
+.numbF-1-4 {
+	width: 300px;
+}
+
+.numbF-1-5 {
+	width: 205px;
+}
+
+.numbF-1-6 {
+	width: 190px;
+}
+/* ------- table flights ---------*/
+
+
+/* ----------- Footer ------------*/
+#Footer {
+	width: 1522px;
+}
+/* ----------- Footer ------------*/
+
+
+/*--------- Under Footer ---------*/
+#FooterLine {
+	width: 1522px;
+}
+/*--------- Under Footer ---------*/
+}
+
+
+@media only screen and (min-width : 1280px) and (max-width : 1599px) {
+
+	#window {
+	width: 1260px;
+	height: auto; 
+	margin: 0 auto;
+	max-height: auto;
+	min-height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+/* ------- BuyTicket -------- */
+#bBT {
+	margin-left: 344px;
+}
+/* ------- BuyTicket -------- */
+
+
+/* --------- social contacts --------- */
+.header-soc {
+	margin-left: 10px;
+}
+
+.butIn {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 35px;
+	margin-top: 45px;
+}
+
+#imgMag {
+	background: #eeeeee no-repeat 4px 3px url('../IMG/mag.png');
+}
+
+.ExitButIn {
+	float: left;
+	margin-left: -234px;
+	margin-top: 45px;
+}
+
+.ExitButIn input[type=text] {
+	height: 25px;
+}
+
+.qCancel {
+	width: 25px;
+	height: 25px;
+	margin-top: -28px;
+	margin-left: 187px;
+	outline: none;
+	box-shadow: none;
+}
+/* --------- social contacts --------- */
+
+
+/* ----------- menu-header ----------- */
+.Shell-MH {
+	width: 1280px;
+	margin-left: -10px;
+}
+
+.menu-header {
+	float: none;
+}
+/* ----------- menu-header ----------- */
+
+
+/* ------- Name-Table -------- */
+.name-table {
+	width: 1280px;
+	margin-left: -10px;
+	margin-top: -60px;
+}
+/* ------- Name-Table -------- */
+
+
+/* ------- table flights ---------*/
+.numbFligft {
+	width: 190px;
+}
+
+.AeroSend {
+	width: 260px;
+}
+
+.TerSend {
+	width: 140px;
+}
+
+.AeroArrival {
+	width: 260px;
+}
+
+.DaTiShedule {
+	width: 165px;
+}
+
+.Status {
+	width: 150px;
+}
+
+#NameFlights {
+	width: 1180px;
+}
+
+#NameFlights_2 {
+	width: 1180px;
+}
+
+#NameFlights_3 {
+	width: 1180px;
+}
+
+#NameFlights_4 {
+	width: 1180px;
+}
+
+#NumF-1 {
+	width: 1160px;
+}
+
+.numbF-1-1 {
+	width: 190px;
+}
+
+.numbF-1-2 {
+	width: 260px;
+}
+
+.numbF-1-3 {
+	width: 140px;
+}
+
+.numbF-1-4 {
+	width: 260px;
+}
+
+.numbF-1-5 {
+	width: 165px;
+}
+
+.numbF-1-6 {
+	width: 130px;
+}
+/* ------- table flights ---------*/
+
+
+/* ----------- Footer ------------*/
+#Footer {
+	width: 1280px;
+}
+
+ul.SomeTextFooter li {
+	padding: 5px 10px 5px 60px;
+}
+/* ----------- Footer ------------*/
+
+
+/*--------- Under Footer ---------*/
+#FooterLine {
+	width: 1280px;
+}
+
+#UnFooText_2 {
+	margin-left: 60px;
+}
+
+#UnFooTextList_2 {
+	margin-left: 20px;
+}
+/*--------- Under Footer ---------*/
+
+}
+
+
+@media only screen and (min-width : 1024px) and (max-width : 1279px) {
+
+	#window {
+	width: 1004px;
+	height: auto; 
+	margin: 0 auto;
+	max-height: auto;
+	min-height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+/* ------- BuyTicket -------- */
+#bBT {
+	margin-left: 344px;
+}
+/* ------- BuyTicket -------- */
+
+
+/* --------- social contacts --------- */
+#Telephon {
+	width: 430px;
+}
+
+.feedback {
+	margin-left: 10px; 
+}
+
+.header-soc {
+	margin-left: -10px;
+}
+
+.butIn {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: -31px;
+	margin-top: 45px;
+}
+
+.ExitButIn {
+	float: left;
+	margin-left: -234px;
+	margin-top: 45px;
+}
+
+.ExitButIn input[type=text] {
+	height: 25px;
+}
+
+.qCancel {
+	width: 25px;
+	height: 25px;
+	margin-top: -28px;
+	margin-left: 187px;
+	outline: none;
+	box-shadow: none;
+}
+
+.rus-en {
+	float: left;
+	width: 110px;
+	margin-left: -400px;
+	margin-top: 40px;
+}
+/* --------- social contacts --------- */
+
+
+/* ----------- menu-header ----------- */
+.Shell-MH {
+	width: 1004px;
+	margin-left: -10px;
+}
+
+.menu-header {
+	float: none;
+	margin-top: 0px;
+	margin-left: -50px;
+}
+
+.menu-header a {
+	padding-left: 60px;
+	padding-top: 30px;
+}
+
+/*-- button reg --*/
+.btn {
+    float: right;
+    margin-right: -10px;
+    margin-top: 5px;
+ }
+ /*-- button reg --*/
+/* ----------- menu-header ----------- */
+
+
+/* ------- Name-Table -------- */
+.name-table {
+	width: 1004px;
+	margin-left: -80px;
+	margin-top: -70px;
+}
+
+.menu-table {
+	margin-right: -80px;
+}
+/* ------- Name-Table -------- */
+
+
+/* ------- button-info ---------*/
+.info-flight {
+    margin-left: 0px;
+}
+
+.takeoff-landing {
+	margin-left: 454px;
+}
+
+#listCity {
+	margin-left: 674px;
+}
+/* ------- button-info ---------*/
+
+
+/* ------- table flights ---------*/
+#H-Table {
+	width: 1004px;
+	margin-left: -65px;
+}
+
+.numbFligft {
+	width: 150px;
+}
+
+.AeroSend {
+	width: 220px;
+}
+
+.TerSend {
+	width: 100px;
+}
+
+.AeroArrival {
+	width: 220px;
+}
+
+.DaTiShedule {
+	width: 130px;
+}
+
+.Status {
+	width: 110px;
+}
+
+#NameFlights {
+	width: 984px;
+	margin-left: 0px;
+}
+
+#NameFlights_2 {
+	width: 984px;
+	margin-left: 0px;
+}
+
+#NameFlights_3 {
+	width: 984px;
+	margin-left: 0px;
+}
+
+#NameFlights_4 {
+	width: 984px;
+	margin-left: 0px;
+}
+
+#NumF-1 {
+	width: 964px;
+}
+
+.numbF-1-1 {
+	width: 150px;
+}
+
+.numbF-1-2 {
+	width: 220px;
+}
+
+.numbF-1-3 {
+	width: 100px;
+}
+
+.numbF-1-4 {
+	width: 220px;
+}
+
+.numbF-1-5 {
+	width: 130px;
+}
+
+.numbF-1-6 {
+	width: 110px;
+}
+/* ------- table flights ---------*/
+
+
+/* ----------- Footer ------------*/
+#Footer {
+	width: 1004px;
+}
+
+.DivFooterOne {
+	margin-left: 15px;
+}
+
+ul.SomeTextFooter li {
+	padding: 5px 10px 5px 25px;
+}
+/* ----------- Footer ------------*/
+
+
+/*--------- Under Footer ---------*/
+#UnFooText_1 {
+	margin-left: 15px;
+}
+
+#UnFooTextList {
+	margin-left: -25px;
+}
+
+#UnFooText_2 {
+	margin-left: 90px;
+}
+
+#UnFooTextList_2 {
+	margin-left: 50px;
+}
+
+#FooterLine {
+	width: 1004px;
+}
+/*--------- Under Footer ---------*/
+
+}
+
+
+@media only screen and (min-width : 768px) and (max-width : 1023px) {
+
+	#window {
+	width: 990px;
+	height: auto; 
+	margin: 0 auto;
+	max-height: auto;
+	min-height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+/* ------- BuyTicket -------- */
+#bBT {
+	margin-left: 344px;
+}
+/* ------- BuyTicket -------- */
+
+
+/* --------- social contacts --------- */
+#Telephon {
+	width: 430px;
+	margin-left: 5px;
+}
+
+.feedback {
+	margin-left: 0px; 
+}
+
+.header-soc {
+	margin-left: -25px;
+}
+
+.butIn {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: -31px;
+	margin-top: 45px;
+}
+
+.ExitButIn {
+	float: left;
+	margin-left: -234px;
+	margin-top: 45px;
+}
+
+.ExitButIn input[type=text] {
+	height: 25px;
+}
+
+.qCancel {
+	width: 25px;
+	height: 25px;
+	margin-top: -28px;
+	margin-left: 187px;
+	outline: none;
+	box-shadow: none;
+}
+
+.rus-en {
+	float: left;
+	width: 110px;
+	margin-left: -400px;
+	margin-top: 40px;
+}
+/* --------- social contacts --------- */
+
+
+/* ----------- menu-header ----------- */
+.Shell-MH {
+	width: 990px;
+	margin-left: -15px;
+}
+
+.menu-header {
+	float: none;
+	margin-top: 0px;
+	margin-left: -40px;
+}
+
+.menu-header a {
+	padding-left: 60px;
+	padding-top: 30px;
+}
+
+/*-- button reg --*/
+.btn {
+    float: right;
+    margin-right: -10px;
+    margin-top: 5px;
+ }
+ /*-- button reg --*/
+/* ----------- menu-header ----------- */
+
+
+/* ------- Name-Table -------- */
+.name-table {
+	width: 990px;
+	margin-left: -35px;
+	margin-top: -70px;
+}
+
+.menu-table {
+	margin-right: -35px;
+}
+/* ------- Name-Table -------- */
+
+
+/* ------- button-info ---------*/
+.info-flight {
+    margin-left: 45px;
+}
+
+.takeoff-landing {
+	margin-left: 440px;
+}
+
+#listCity {
+	margin-left: 660px;
+}
+/* ------- button-info ---------*/
+
+
+/* ------- table flights ---------*/
+#H-Table {
+	width: 990px;
+	margin-left: -65px;
+}
+
+.numbFligft {
+	width: 150px;
+}
+
+.AeroSend {
+	width: 220px;
+}
+
+.TerSend {
+	width: 100px;
+}
+
+.AeroArrival {
+	width: 220px;
+}
+
+.DaTiShedule {
+	width: 130px;
+}
+
+.Status {
+	width: 110px;
+}
+
+#NameFlights {
+	width: 970px;
+	margin-left: 0px;
+}
+
+#NameFlights_2 {
+	width: 970px;
+	margin-left: 0px;
+}
+
+#NameFlights_3 {
+	width: 970px;
+	margin-left: 0px;
+}
+
+#NameFlights_4 {
+	width: 970px;
+	margin-left: 0px;
+}
+
+#NumF-1 {
+	width: 950px;
+}
+
+.numbF-1-1 {
+	width: 150px;
+}
+
+.numbF-1-2 {
+	width: 220px;
+}
+
+.numbF-1-3 {
+	width: 100px;
+}
+
+.numbF-1-4 {
+	width: 220px;
+}
+
+.numbF-1-5 {
+	width: 130px;
+}
+
+.numbF-1-6 {
+	width: 110px;
+}
+/* ------- table flights ---------*/
+
+
+/* ----------- Footer ------------*/
+#Footer {
+	width: 990px;
+}
+
+.DivFooterOne {
+	margin-left: 15px;
+}
+
+ul.SomeTextFooter li {
+	padding: 5px 10px 5px 25px;
+}
+/* ----------- Footer ------------*/
+
+
+/*--------- Under Footer ---------*/
+#UnFooText_1 {
+	margin-left: 15px;
+}
+
+#UnFooTextList {
+	margin-left: -25px;
+}
+
+#UnFooText_2 {
+	margin-left: 90px;
+}
+
+#UnFooTextList_2 {
+	margin-left: 50px;
+}
+
+#FooterLine {
+	width: 990px;
+}
+/*--------- Under Footer ---------*/
+
+}
+
+
+@media only screen and (min-width : 480px) and (max-width : 767px) {
+
+	#window {
+	width: 740px;
+	height: auto; 
+	margin: 0 auto;
+	max-height: auto;
+	min-height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+/* ------- BuyTicket -------- */
+#bBT {
+	margin-left: 344px;
+}
+/* ------- BuyTicket -------- */
+
+
+/* --------- social contacts --------- */
+#Telephon {
+	width: 160px;
+	margin-left: 25px;
+}
+
+.sp_tel_none {
+	display: none;
+}
+
+.feedback {
+	display: none;
+}
+
+.header-soc {
+	display: none;
+}
+
+.butIn {
+	width: 30px;
+	height: 30px;
+	float: left;
+	margin-left: 200px;
+	margin-top: 22px;
+}
+
+.ExitButIn {
+	float: left;
+	margin-left: -234px;
+	margin-top: 22px;
+}
+
+.ExitButIn input[type=text] {
+	height: 25px;
+}
+
+.qCancel {
+	width: 25px;
+	height: 25px;
+	margin-top: -28px;
+	margin-left: 187px;
+	outline: none;
+	box-shadow: none;
+}
+
+.rus-en {
+	float: left;
+	width: 110px;
+	margin-left: 0px;
+	margin-top: 10px;
+}
+/* --------- social contacts --------- */
+
+
+/* ----------- menu-header ----------- */
+.Shell-MH {
+	width: 740px;
+	margin-left: -15px;
+}
+
+.menu-header {
+	float: right;
+	margin-top: -60px;
+	margin-right: -185px;
+}
+
+.menu-header a {
+	padding-left: 43px;
+	padding-top: 0px;
+}
+
+/*-- button reg --*/
+.btn {
+    float: right;
+    margin-right: -10px;
+    margin-top: 50px;
+ }
+ /*-- button reg --*/
+/* ----------- menu-header ----------- */
+
+
+/* ------- Name-Table -------- */
+.name-table {
+	width: 740px;
+	margin-left: -35px;
+	padding-top: 30px;
+}
+
+.menu-table {
+	margin-right: -30px;
+	margin-top: -55px;
+}
+/* ------- Name-Table -------- */
+
+
+/* ------- button-info ---------*/
+.info-flight {
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.takeoff-landing {
+	margin-left: 45px;
+	margin-top: 30px;
+}
+
+.iN {
+	margin-top: 30px;
+}
+
+#listCity {
+	margin-left: 265px;
+	margin-top: -35px;
+}
+/* ------- button-info ---------*/
+
+
+/* ------- table flights ---------*/
+#H-Table {
+	width: 740px;
+	margin-left: -65px;
+}
+
+.numbFligft {
+	width: 100px;
+}
+
+.AeroSend {
+	width: 170px;
+}
+
+.TerSend {
+	width: 95px;
+}
+
+.AeroArrival {
+	width: 170px;
+}
+
+.DaTiShedule {
+	width: 95px;
+}
+
+.Status {
+	width: 40px;
+}
+
+#NameFlights {
+	width: 720px;
+	margin-left: 0px;
+}
+
+#NameFlights_2 {
+	width: 720px;
+	margin-left: 0px;
+}
+
+#NameFlights_3 {
+	width: 720px;
+	margin-left: 0px;
+}
+
+#NameFlights_4 {
+	width: 720px;
+	margin-left: 0px;
+}
+
+#NumF-1 {
+	width: 700px;
+}
+
+.numbF-1-1 {
+	width: 100px;
+}
+
+.numbF-1-2 {
+	width: 170px;
+}
+
+.numbF-1-3 {
+	width: 95px;
+}
+
+.numbF-1-4 {
+	width: 170px;
+}
+
+.numbF-1-5 {
+	width: 95px;
+}
+
+.numbF-1-6 {
+	width: 40px;
+}
+/* ------- table flights ---------*/
+
+
+/* ----------- Footer ------------*/
+#Footer {
+	width: 740px;
+	height: 200px;
+}
+
+.DivFooterOne {
+	margin-left: 15px;
+}
+
+ul.SomeTextFooter li {
+	margin-left: 50px;
+	margin-top: -35px;
+	padding: 5px 0px 40px 25px;
+}
+/* ----------- Footer ------------*/
+
+
+/*--------- Under Footer ---------*/
+#UnFooText_1 {
+	margin-left: 15px;
+}
+
+#UnFooTextList {
+	margin-left: -25px;
+}
+
+#UnFooText_2 {
+	margin-left: 50px;
+}
+
+#UnFooTextList_2 {
+	margin-left: 10px;
+}
+
+#FooterLine {
+	width: 740px;
+}
+/*--------- Under Footer ---------*/
+
+}
+
+
+@media only screen and (min-width : 240px) and (max-width : 479px) {
+
+	#window {
+	width: 320px;
+	height: auto; 
+	margin: 0 auto;
+	max-height: auto;
+	min-height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin-bottom: 100px;
+	overflow: hidden;
+}
+
+/* ------- BuyTicket -------- */
+#bBT {
+	margin-left: 225px;
+	margin-top: 60px;
+	width: 150px;
+	height: 30px;
+	border-radius: 0 0 10px 10px;
+	font: 400 16px/30px 'Helios', sans-serif;
+}
+
+#buyTicket {
+	width: 285px;
+	height: 470px;
+	margin-left: -285px;
+	margin-top: 100px;
+}
+
+.shift {
+	margin-left: 285px;
+}
+
+.TabItemBT {
+	width: 270px;
+	margin-left: 10px;
+}
+
+#race-online {
+	width: 270px;
+}
+
+#listCity_2 {
+	width: 205px;
+	margin-top: 8px;
+}
+
+#listCity_3 {
+	width: 205px;
+}
+
+.cityDeparture {
+	width: 250px;
+	margin-top: 15px;
+}
+
+.cityArrival {
+	width: 250px;
+	margin-top: 20px;
+}
+
+.popupList_2 {
+	width: 263px;
+}
+.popupList_3 {
+	width: 263px;
+}
+
+.add_ls-first-2 {
+	width: 205px;
+}
+
+.add_ls-first-3 {
+	width: 240px;
+}
+
+.InputTypeRadio {
+	width: 273px;
+}
+
+.inOneDirection {
+	width: 130px;
+	margin-right: 5px;
+}
+
+.SendDate {
+	width: 100px;
+	margin-right: 10px;
+	padding-left: 25px;
+}
+
+
+.adultsFrom {
+	width: 205px;
+}
+
+.SearchTicket {
+	width: 190px;
+	height: 30px;
+	margin-top: 0px;
+	margin-left: 40px;
+	font-size: 12px;
+	color: white;
+}
+/* ------- BuyTicket -------- */
+
+
+/* --------- social contacts --------- */
+#Header {
+	width: 318px;
+	position: relative;
+	height: 100px;
+	border-bottom: solid 1px #808080;
+}
+
+#Telephon {
+	width: 120px;
+	margin-left: 25px;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+#Telephon a {
+	padding-left: 0px;
+}
+
+#Telephon img {
+	display: none;
+}
+
+.sp_tel_none {
+	display: none;
+}
+
+.feedback {
+	width: 145px;
+	height: 20px;
+	margin-left: 38px;
+	margin-top: 10px;
+	background: none;
+}
+
+.feedback a {
+	padding-left: 0px;
+}
+
+
+.rus-en {
+	width: 110px;
+	margin-left: 200px;
+	margin-top: -60px;
+}
+
+.header-soc {
+	width: 70px;
+	float: none;
+	margin-left: 168px;
+}
+
+.h_in span {
+	font-size: 0;
+}
+
+.header-soc a.yt {
+	width: 24px;
+	height: 20px;
+	margin-top: 0px;
+}
+
+.header-soc a.h_in {
+	margin-top: -20px;
+	margin-left: 35px;
+	height: 23px;
+}
+
+.intermap {
+	width: 190px;
+	height: 20px;
+	margin-left: 10px;
+	margin-top: 5px;
+	background: none; 
+}
+
+.inmap_a {
+	display: none;
+}
+
+.inmap_a_2 {
+	display: block;
+	cursor: pointer;
+}
+
+.inmap_a_2 a:hover {
+	color: red;
+}
+
+.butIn {
+	display: none;
+}
+
+/* -- add Q -- */
+#wrap {
+	display: none;
+}
+
+.form-search_2 {
+	float: left;
+	display: block;
+	margin-top: -20px;
+	max-width: 140px;
+}
+
+.form-search_2 input[type=text] {
+	width: 140px;
+	height: 25px;
+	margin-left: 165px;
+	font-size: 14px;
+	background: #eeeeee no-repeat 127px 4px url('../IMG/mag.png');
+	padding-left: 10px;
+	color: black;
+	border-color: red;
+	border-radius: 20px 20px;
+	outline: none;
+	cursor: pointer;
+}
+
+.subSearch {
+	float: left;
+	width: 25px;
+	height: 25px;
+	margin-top: -28px;
+	margin-left: 292px;
+	background: #eeeeee;
+	border: #eeeeee 1px;
+	opacity: 0.4;
+	border-radius: 50%;
+}
+/* -- add Q -- */
+
+/* --------- social contacts --------- */
+
+
+/* ----------- menu-header ----------- */
+.Shell-MH {
+	width: 318px;
+	margin-left: 0px;
+}
+
+.menu-header {
+	display: block;
+	width: 300px;
+	float: right;
+	margin-right: 10px;
+	margin-top: 40px;
+	text-align: right;
+}
+
+.menu-header ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.menu-header li {
+	float: right;
+}
+
+.menu-header a {
+	font: 400 16px/20px 'Helios', sans-serif;
+	padding-top: 0px;
+
+}
+
+.add_services {
+	display: block;
+}
+/*-- button reg --*/
+.btn {
+    float: right;
+    margin-right: 5px;
+    margin-top: -15px;
+ }
+
+ .form-popup {
+	width: 230px;
+	height: 195px;
+}
+
+.form-popup input[type=text] {
+	width: 200px;
+	height: 25px;
+	margin-left: 15px;
+}
+
+.send {
+	width: 60px;
+	height: 25px;
+	margin-top: 20px;
+	margin-left: 90px;
+}
+
+.cancel{
+	left: 48px;
+	top: -155px;
+}
+ /*-- button reg --*/
+/* ----------- menu-header ----------- */
+
+
+/* ------- Name-Table -------- */
+.name-table {
+	float: right;
+	width: 318px;
+	margin-right: 10px;
+	font: 400 5px/10px sans-serif;
+	letter-spacing: 1.8px;
+}
+
+.name-table h1 {
+	float: right;
+	margin-right: 0px;
+	font-size: 24px;
+    margin-top: 25px;
+}
+
+.menu-table {
+	width: 303px;
+	float: right;
+	margin-right: 0px;
+	margin-top: 0px;
+	text-align: right;
+}
+
+
+.menu-table li {
+    font: 400 16px/20px 'Helios', sans-serif;
+}
+
+.menu-table li a {
+	padding: 0 2px;
+}
+/* ------- Name-Table -------- */
+
+
+/* ------- button-info --------- */
+.info-flight {
+	float: right;
+	width: 310px;
+    margin-right: 0px;
+    margin-top: 40px;
+    text-align: right;
+}
+
+.InFlText {
+	float: right;
+}
+
+.takeoff-landing {
+	margin-left: 45px;
+	margin-top: 30px;
+}
+
+.iN {
+	margin-top: 30px;
+}
+
+#listCity {
+	float: right;
+	width: 205px;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.popupList {
+	width: 263px;
+}
+
+.ls-first-2{
+	width: 205px;
+}
+
+.ls-first-3 {
+	width: 240px;
+}
+/* ------- button-info ---------*/
+
+
+/* ------- table flights ---------*/
+#H-Table {
+	display: none;
+}
+
+#NameFlights {
+	display: none;
+}
+
+#NameFlights_2 {
+	display: none;
+}
+
+#NameFlights_3 {
+	display: none;
+}
+
+#NameFlights_4 {
+	display: none;
+}
+
+#NameFlights_5 {
+	display: block;
+	width: 280px;
+	height: 210px;
+	margin-left: 20px;
+}
+
+#NameFlights_6 {
+	display: block;
+	width: 280px;
+	height: 210px;
+	margin-left: 20px;
+}
+
+#NameFlights_7 {
+	display: block;
+	width: 280px;
+	height: 210px;
+	margin-left: 20px;
+}
+
+#NameFlights_8 {
+	display: block;
+	width: 280px;
+	height: 240px;
+	margin-left: 20px;
+}
+
+#NumF-1 {
+	width: 270px;
+	height: auto;
+}
+
+.numbF-1-1 {
+	float: none;
+	width: 250px;
+	padding-top: 8px;
+}
+
+.numbF-1-2 {
+	float: none;
+	width: 250px;
+	padding-top: 8px;
+}
+
+.numbF-1-3 {
+	float: none;
+	width: 250px;
+	padding-top: 8px;
+}
+
+.numbF-1-4 {
+	float: none;
+	width: 250px;
+	padding-top: 8px;
+}
+
+.numbF-1-5 {
+	float: none;
+	width: 250px;
+	padding-top: 8px;
+}
+
+.numbF-1-6 {
+	float: none;
+	width: 250px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+}
+
+.TooLiFli {
+	padding-bottom: 200px;;
+}
+
+.TypeInfoFl ul {
+	padding-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	padding-top: 8px;
+}
+
+.TyInFl_8 {
+    margin-top: 30px;
+}
+
+.TooLiFli_NF_8 {
+	position: relative;
+	padding-bottom: 280px;
+	border: 1px solid red;
+	border-radius: 18px 18px;
+}
+
+.TooLiFli_NF_8:hover {
+	background: #f7fbff;
+	cursor: pointer;
+	border-color: #006da4;
+}
+/* ------- table flights ---------*/
+
+
+/* ----------- Footer ------------*/
+#Footer {
+	display: none;
+}
+
+#Footer_320 {
+	width: 320px;
+	height: 120px;
+	margin-top: 50px;
+	display: inline-block;
+	background: #474645;
+}
+
+.DivFooterOne {
+	width: 120px;
+	margin-left: 35px;
+}
+
+ul.SomeTextFooter {
+	margin-left: 0px;
+}
+
+ul.SomeTextFooter li {
+	width: 140px;
+	margin-left: 20px;
+	margin-top: 5px;
+	padding: 0px 0px 0px 0px;
+}
+
+
+/* ----------- Footer ------------*/
+
+
+/*--------- Under Footer ---------*/
+.UnderFooter {
+	width: 318px;
+	height: 350px;
+	margin-bottom: 0px;
+	border-bottom: 1px #808080 solid;
+}
+
+#UnFooText_1 {
+	margin-top: 35px;
+	margin-left: 100px;
+}
+
+#UnFooTextList {
+	margin-left: 45px;
+}
+
+#UnFooText_2 {
+	display: none;
+}
+
+#UnFooTextList_2 {
+	display: none;
+}
+
+#FooterLine {
+	display: none;
+}
+/*--------- Under Footer ---------*/
